@@ -29,6 +29,20 @@ Este proyecto documenta un proceso paso a paso para explotar la vulnerabilidad E
     ```bash
     sudo apt-get install inetsim
 3. **Instalar Burp Suite**:
+   - Burp Suite ya viene preinstalado en Kali Linux. Si no lo tienes, descárgalo e instálalo desde Burp Suite Community Edition.
+4. **Instalar btcAnalyzer**:
    ```bash
+   sudo apt-get install python3-pip
+   pip3 install btcAnalyzer
+### Paso 2: Configurar Windows 7
+1. Configurar Red:
+  - Asegúrate de que la máquina Windows 7 esté en la misma red que tu Kali Linux.
+  - Configura las propiedades de red para usar la IP de Kali como servidor DNS
+### Paso 3: Ejecución del Ataque
+1. Ejecutar el script de python:
+  - python msfEternal.py
+2. Seguir los pasos. 
+
+   
    
    
